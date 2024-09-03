@@ -84,7 +84,7 @@ docker run -t -i --gpus all nvidia/cuda:12.1.0-devel-ubuntu22.04 bash
 9 + 81 = 90
 ```
 
-#Table of Contents
+# Table of Contents
 
 - Why CUDA? Why Now?
 - Getting Started
@@ -100,7 +100,7 @@ docker run -t -i --gpus all nvidia/cuda:12.1.0-devel-ubuntu22.04 bash
 - The Final Countdown
 
 
-#Authors
+# Authors
 
 Jason Sanders is a senior software engineer in NVIDIA’s CUDA Platform Group, helped develop early releases of CUDA system software and contributed to the OpenCL 1.0 Specification, an industry standard for heterogeneous computing. He has held positions at ATI Technologies, Apple, and Novell.
 
