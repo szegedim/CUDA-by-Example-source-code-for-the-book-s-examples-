@@ -1,7 +1,7 @@
 # CUDA-by-Example-source-code-for-the-book-s-examples-
 CUDA by Example, written by two senior members of the CUDA software platform team, shows programmers how to employ this new technology.  The authors introduce each area of CUDA development through working examples. 
 
-#Updates by Miklos Szegedi
+# Updates by Miklos Szegedi
 
 The book has been written more than a decade ago. I also tested with an older NVidia GPU.
 
@@ -58,16 +58,10 @@ Tue Sep  3 03:46:47 2024
 ```
 
 Install a supported version of CUDA. You can get a list of supported compute capability by each device.
-
-```
-https://developer.nvidia.com/cuda-GPUs
-```
+[https://developer.nvidia.com/cuda-GPUs](https://developer.nvidia.com/cuda-GPUs)
 
 You can just ask copilot to show the supported CUDA version.
-
-```
-https://www.bing.com/search?q=What%20cuda%20version%20is%20required%20for%20compute%20capability%206.1?&showconv=1&sendquery=1
-```
+[Bing](https://www.bing.com/search?q=What%20cuda%20version%20is%20required%20for%20compute%20capability%206.1?&showconv=1&sendquery=1)
 
 Our configuration supports nvidia/cuda:12.1.0-devel-ubuntu22.04. We do not support any OpenGL calls within a docker container, yet.
 Other pure CUDA examples will work.
